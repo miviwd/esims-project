@@ -1,0 +1,80 @@
+header {
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 1px 1px 5px 0px rgb(227 218 218);
+}
+
+.navbar-brand {
+    margin-right: 24px;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #00000080;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.dropdown-item:hover {
+    color: #5F2293;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-item {
+    font-weight: 600;
+    color: #29E2DD;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar-tool button {
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+}
+
+.navbar-tool button img {
+    width: 21px;
+    filter: invert(36%) sepia(1%) saturate(2272%) hue-rotate(328deg) brightness(82%) contrast(76%);
+}
+
+.navbar-tool button img.user-img {
+    width: 25px;
+}
+
+.navbar-tool button.btn-shopping-cart {
+    position: relative;
+    background-color: #eef3f5;
+    padding: 11px;
+    border-radius: 50%;
+}
+
+.navbar-tool .btn-shopping-cart .amount-product{
+    position: absolute;
+    top: -10px;
+    right: -9px;
+    background-color: #5F2293;
+    border-radius: 50%;
+}
+
+
+.navbar-tool .btn-shopping-cart span {
+    margin: 0;
+    padding: 6px;
+    color: #fff;
+    font-size: 11px;
+    vertical-align: middle;
+}
